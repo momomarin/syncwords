@@ -1,0 +1,18 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "regions": ["nrt1"],
+  "functions": {
+    "app/api/quiz/generate/route.ts": {
+      "maxDuration": 30
+    },
+    "app/api/feedback/route.ts": {
+      "maxDuration": 30
+    },
+    "app/api/summary/route.ts": {
+      "maxDuration": 30
+    }
+  }
+}
