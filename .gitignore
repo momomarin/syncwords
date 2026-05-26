@@ -21,3 +21,4 @@ tsconfig.tsbuildinfo
 
 # Misc
 gemini-code-*.md
+.claude/
